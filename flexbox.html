@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox practice</title>
+</head>
+<body style="margin-bottom: 800px">
+<div style="
+display: flex;
+flex-direction: row;
+">
+    <div style="background-color: lightblue">div 1 test</div>
+    <div style="background-color: lightpink">div 2 <p>text</p></div>
+</div>
+
+<div style="
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+">
+    <div style="
+    background-color: lightblue;
+    width: 100px;
+    ">100</div>
+    <div style="background-color: lightpink;
+    flex: 1;
+    ">flex: 1</div>
+</div>
+
+<div style="
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 70px;
+border-radius: 1px;
+border-style: solid;
+border-color: gray;
+align-items: stretch;
+">
+    <div style="
+    background-color: lightblue;
+    width: 100px;
+    ">1</div>
+    <div style="background-color: lightpink;
+    width: 100px;
+    ">2</div>
+    <div style="
+    background-color: lightblue;
+    width: 100px;
+    ">3</div>
+</div>
+
+<div style="
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-radius: 1px;
+border-style: solid;
+border-color: gray;
+height: 70px;
+align-items: stretch;
+">
+    <div style="
+    background-color: lightblue;
+    width: 100px;
+    ">1</div>
+    <div style="background-color: lightpink;
+    width: 100px;
+    ">2</div>
+    <div style="
+    background-color: lightblue;
+    width: 100px;
+    ">3</div>
+</div>
+
+<div style="
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+border-radius: 1px;
+border-style: solid;
+border-color: gray;
+height: 70px;
+">
+    <div style="
+    background-color: lightblue;
+    width: 100px;
+    ">1</div>
+    <div style="background-color: lightpink;
+    width: 100px;
+    ">2</div>
+    <div style="
+    background-color: lightblue;
+    width: 100px;
+    ">3</div>
+</div>
+
+<div style="
+margin-top: 20px;
+display: flex;
+flex-direction: row;">
+    <div style="
+        background-color: lightpink;
+        width: 200px">
+        200px
+    </div>
+    <div style="
+        background-color: lightblue;
+        width: 75px">
+        75px
+    </div>
+</div>
+
+<div style="
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row">
+        <div style="
+            background-color: lightblue;
+            width: 50px">
+            50px
+        </div>
+        <div style="
+            background-color: lightpink;
+            flex: 1">
+            flex: 1
+        </div>
+        <div style="
+            background-color: lightblue;
+            width: 75px">
+            75px
+        </div>
+</div>
+
+<div style="
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between">
+        <div style="
+            background-color: lightblue">
+            flex 1
+        </div>
+        <div style="
+            background-color: lightpink">
+            flex 2
+        </div>
+        <div style="
+            background-color: lightblue">
+            flex 3
+        </div>
+        <div style="
+            background-color: lightpink">
+            flex 4
+        </div>
+</div>
+
+<div style="
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center">
+        <div style="
+            background-color: lightpink">
+            item 1
+        </div>
+        <div style="
+            background-color: lightpink">
+            item2
+        </div>
+</div>
+
+<div style="
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between">
+        <div style="
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between">
+                <div style="
+                    font-family: Cantarell ,serif;
+                    font-size: 30px">
+                    Home
+                </div>
+                <div style="
+                    background-color: #0c8ffc;
+                    border-radius: 50px;
+                    color: white;
+                    font-family: 'Cantarell Extra Bold',serif;
+                    font-size: 25px;
+                    padding: 8px 25px">
+                    14
+                </div>
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 5px">
+                <div style="
+                    font-family: Cantarell,Arial,serif;
+                    font-size: 30px;">
+                    Notifications
+                </div>
+                <div style="
+                    background-color: #0c8ffc;
+                    color: white;
+                    border-radius: 40px;
+                    font-family: 'Cantarell Extra Bold',Arial;
+                    font-size: 25px;
+                    padding: 8px 25px;
+                    ">
+                    3
+                </div>
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 5px;
+            ">
+                <div style="
+                    font-family: Cantarell,Arial,serif;
+                    font-size: 30px;
+                    ">
+                    Messages
+                </div>
+                <div style="
+                    background-color: #0c8ffc;
+                    color: white;
+                    padding: 8px 25px;
+                    border-radius: 40px;
+                    font-family: 'Cantarell Extra Bold', Arial;
+                    font-size: 25px;
+                    ">
+                    5
+                </div>
+        </div>
+</div>
+
+<div style="
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    border-radius: 10px;
+    border-color: gray;
+    border-style: solid;
+    margin-top: 20px">
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin: 5px;
+            ">
+                <div style="
+                    display: flex;
+                    width: 90px">
+                        <img style="
+                             height: 80px;
+                             border-radius: 50px;
+                             object-fit: cover;
+                             width: 80px;" src="thumbnails/5.jpg" alt="jjj">
+                </div>
+                <div style="
+                    display: flex;
+                    flex-direction: column;
+                    ">
+                        <p style="
+                            font-family: 'Cantarell Extra Bold',Arial;
+                            margin: 0;
+                            font-size: 20px">
+                            Oliver
+                        </p>
+                        <p style="
+                            font-family: Cantarell,Arial;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                            font-size: 20px">
+                            the cat
+                        </p>
+                        <p style="
+                                font-family: Cantarell,Arial;
+                                margin: 0;
+                                font-size: 20px">
+                                popular
+                            </p>
+                </div>
+                <div style="
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: end;
+                    flex: 1;
+                    ">
+                    <p style="
+                        background-color: #0c8ffc;
+                        border-radius: 10px;
+                        padding: 20px 30px;
+                        color: white;
+                        font-family: 'Cantarell Extra Bold';
+                        font-size: large;
+                        ">
+                        Follow
+                    </p>
+                </div>
+        </div>
+
+        <div style="
+                display: flex;
+                flex-direction: row;
+                margin: 5px;
+                ">
+                    <div style="
+                        display: flex;
+                        width: 90px">
+                            <img style="
+                                 height: 80px;
+                                 border-radius: 50px;
+                                 object-fit: cover;
+                                 width: 80px;" src="thumbnails/5.jpg" alt="jjj">
+                    </div>
+                    <div style="
+                        display: flex;
+                        flex-direction: column;
+                        ">
+                            <p style="
+                                font-family: 'Cantarell Extra Bold',Arial;
+                                margin: 0;
+                                font-size: 20px">
+                                Oliver
+                            </p>
+                            <p style="
+                                font-family: Cantarell,Arial;
+                                margin-top: 5px;
+                                margin-bottom: 5px;
+                                font-size: 20px">
+                                the cat
+                            </p>
+                            <p style="
+                                    font-family: Cantarell,Arial;
+                                    margin: 0;
+                                    font-size: 20px">
+                                    popular
+                                </p>
+                    </div>
+                    <div style="
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: end;
+                        flex: 1;
+                        ">
+                        <p style="
+                            background-color: #0c8ffc;
+                            border-radius: 10px;
+                            padding: 20px 30px;
+                            color: white;
+                            font-family: 'Cantarell Extra Bold';
+                            font-size: large;
+                            ">
+                            Follow
+                        </p>
+                    </div>
+            </div>
+
+        <div style="
+                    display: flex;
+                    flex-direction: row;
+                    margin: 5px;
+                    ">
+                        <div style="
+                            display: flex;
+                            width: 90px">
+                                <img style="
+                                     height: 80px;
+                                     border-radius: 50px;
+                                     object-fit: cover;
+                                     width: 80px;" src="thumbnails/5.jpg" alt="jjj">
+                        </div>
+                        <div style="
+                            display: flex;
+                            flex-direction: column;
+                            ">
+                                <p style="
+                                    font-family: 'Cantarell Extra Bold',Arial;
+                                    margin: 0;
+                                    font-size: 20px">
+                                    Oliver
+                                </p>
+                                <p style="
+                                    font-family: Cantarell,Arial;
+                                    margin-top: 5px;
+                                    margin-bottom: 5px;
+                                    font-size: 20px">
+                                    the cat
+                                </p>
+                                <p style="
+                                        font-family: Cantarell,Arial;
+                                        margin: 0;
+                                        font-size: 20px">
+                                        popular
+                                    </p>
+                        </div>
+                        <div style="
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: end;
+                            flex: 1;
+                            ">
+                            <p style="
+                                background-color: #0c8ffc;
+                                border-radius: 10px;
+                                padding: 20px 30px;
+                                color: white;
+                                font-family: 'Cantarell Extra Bold';
+                                font-size: large;
+                                ">
+                                Follow
+                            </p>
+                        </div>
+                </div>
+</div>
+
+<div style="
+    display: flex;
+    flex-direction: row;
+    background-color: mediumpurple;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    ">
+        <div style="
+            display: flex;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 20px;
+            width: 100px;
+            max-width: 200px;
+            justify-content: start;
+            ">
+                <p style="
+                    color: white;
+                    font-family: 'Cantarell Extra Bold', serif;
+                    font-weight: bold;
+                    font-size: 18px;
+                    ">
+                    Home
+                </p>
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex: 1;
+            align-items: center;
+            ">
+            <label>
+                <input placeholder="Search" style="
+                    width: 400px;
+                    color: mediumpurple;
+                    border-radius: 20px;
+                    border-style: solid;
+                    border: none;
+                    height: 40px;
+                    font-family: Cantarell, serif;
+                    font-size: 15px;
+                    " type="text">
+            </label>
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+            margin-left: 0;
+            margin-right: 10px;
+            margin-top: 0;
+            margin-bottom: 0;
+            width: 200px;
+            max-width: 300px;
+            ">
+                <p style="
+                    border-style: solid;
+                    border-width: 2px;
+                    border-color: white;
+                    color: white;
+                    font-family: Cantarell, serif;
+                    font-weight: bold;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-left: 18px;
+                    padding-right: 18px;
+                    ">
+                    Download
+            </p>
+        </div>
+</div>
+
+<div style="
+    display: flex;
+    border: 5px;
+    border-color: #c5c5c5;
+    border-style: solid;
+    width: 300px;
+    margin-top: 10px;
+    ">
+        <div style="
+            display: flex;
+            width: 100px;
+            background-color: lightpink;
+            justify-content: center;
+            ">
+                <p style="
+                    background-color: #252424;
+                    font-family: Cantarell, serif;
+                    color: white;
+                    display: flex;
+                    ">
+                    item1
+                </p>
+        </div>
+        <div style="
+            width: 200px;
+            background-color: lightblue;
+            ">
+        </div>
+</div>
+
+<div style="
+    display: flex;
+    border: 5px;
+    border-color: #c5c5c5;
+    border-style: solid;
+    width: 300px;
+    height: 55px;
+    margin-top: 10px;
+    justify-content: space-between;
+    ">
+        <div style="
+            width: 100px;
+            background-color: lightpink;
+            ">
+
+        </div>
+        <div style="
+            background-color: lightblue;
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            flex-direction: row;
+            ">
+                <div style="
+                    display: flex;
+                    flex-direction: column;
+                    ">
+                        <p style="
+                            font-family: Cantarell, serif;
+                            margin: 0;
+                            ">
+                            row1
+                        </p>
+                        <p style="
+                            background-color: #252424;
+                            font-family: Cantarell, serif;
+                            color: white;
+                            margin: 0;
+                            ">
+                            row2
+                        </p>
+                </div>
+                <div style="
+                    display: flex;">
+                    <p style="
+                        background-color: #252424;
+                        font-family: Cantarell, serif;
+                        color: white;
+                        ">
+                        row2
+                    </p>
+                </div>
+        </div>
+</div>
+
+<div style="
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: #b9b6b6;
+    margin-top: 10px;
+    ">
+        <div style="
+            display: flex;
+            flex: 1;
+            justify-content: start;
+            ">
+                <p style="
+                    font-family: Cantarell, serif;
+                    font-weight: bold;
+                    color: grey;
+                    margin-top: 5px;
+                    margin-bottom: 20px;
+                    margin-left: 20px;
+                    ">
+                    ALL INBOXES
+                </p>
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            align-items: center;
+            ">
+                <img style="
+                    display: flex;
+                    margin-right: 10px;
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 35px;
+                    object-fit: cover;
+                    " src="channel_pics/1.jpg">
+
+                <div style="
+                    display: flex;
+                    flex: 1;
+                    flex-direction: column;
+                    ">
+                        <div style="
+                            display: flex;
+                            flex: 1;
+                            justify-content: space-between;
+                            height: 10px;
+                            ">
+                                <p style="
+                                    font-family: 'Cantarell Extra Bold', Arial;
+                                    margin: 0;
+                                    font-size: 21px;
+                                    ">
+                                    Chewy Promotions
+                                </p>
+                                <p style="
+                                    font-family: Cantarell, serif;
+                                    color: #b9b6b6;
+                                    margin-right: 20px;
+                                    margin-top: 0;
+                                    margin-left: 0;
+                                    margin-bottom: 0;
+                                    ">
+                                    4:58PM
+                                </p>
+                        </div>
+                            <p style="
+                                font-family: 'Cantarell Extra Bold', serif;
+                                margin: 0;
+                                margin-top: 5px;
+                                font-size: 20px;
+                                ">
+                                Biggest sales of the year!
+                            </p>
+                            <p style="
+                                font-family: Cantarell, serif;
+                                margin: 0;
+                                margin-top: 5px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                color: #646464;
+                                ">
+                                Hey there! We're writing to tell you about our...
+                            </p>
+                </div>
+        </div>
+</div>
+
+<div style="
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: #b9b6b6;
+    margin-top: 10px;
+    ">
+        <div style="
+            display: flex;
+            flex: 1;
+            justify-content: start;
+            ">
+                <p style="
+                    font-family: Cantarell, serif;
+                    font-weight: bold;
+                    color: grey;
+                    margin-top: 5px;
+                    margin-bottom: 20px;
+                    margin-left: 20px;
+                    ">
+                    ALL INBOXES
+                </p>
+        </div>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            align-items: center;
+            ">
+                <img style="
+                    display: flex;
+                    margin-right: 10px;
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 35px;
+                    object-fit: cover;
+                    " src="channel_pics/1.jpg">
+
+                <div style="
+                    display: flex;
+                    flex: 1;
+                    flex-direction: column;
+                    ">
+                        <div style="
+                            display: flex;
+                            flex: 1;
+                            justify-content: space-between;
+                            height: 10px;
+                            ">
+                                <p style="
+                                    font-family: 'Cantarell Extra Bold', Arial;
+                                    margin: 0;
+                                    font-size: 21px;
+                                    ">
+                                    Chewy Promotions
+                                </p>
+                                <p style="
+                                    font-family: Cantarell, serif;
+                                    color: #b9b6b6;
+                                    margin-right: 20px;
+                                    margin-top: 0;
+                                    margin-left: 0;
+                                    margin-bottom: 0;
+                                    ">
+                                    4:58PM
+                                </p>
+                        </div>
+                            <p style="
+                                font-family: 'Cantarell Extra Bold', serif;
+                                margin: 0;
+                                margin-top: 5px;
+                                font-size: 20px;
+                                ">
+                                Biggest sales of the year!
+                            </p>
+                            <p style="
+                                font-family: Cantarell, serif;
+                                margin: 0;
+                                margin-top: 5px;
+                                font-size: 18px;
+                                font-weight: bold;
+                                color: #646464;
+                                ">
+                                Hey there! We're writing to tell you about our...
+                            </p>
+                </div>
+        </div>
+
+</div>
+</body>
+</html>
